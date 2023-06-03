@@ -5,6 +5,9 @@ resources:
   - ../../components/app
 namespace: "prowlarr"
 namePrefix: "prowlarr-"
+images:
+  - name: "linuxserver/prowlarr"
+    newTag: "latest"
 configMapGenerator:
   - name: app-config
     envs:
